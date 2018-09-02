@@ -95,6 +95,7 @@ byte sendEmail()
 
   // change to your address
   client.println("From: HomeALARM <arduino@email.com>");
+  client.println("Subject: Your Subject"); 
   // message - add/remove lines as needed
   client.println("First message line.");
   client.println(); //blank line
